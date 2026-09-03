@@ -6,34 +6,36 @@
 
 ## Purpose
 
-This file states what Workstream 1 needs from the other workstreams and from INSEAD functions to turn version 0.1 into the final framework. Each item says why it matters, what version 0.1 assumes while it is open, and who owns it. It is the checklist the workstream leads review together.
+This file states what Workstream 1 needs from the other workstreams and from INSEAD functions to turn version 0.1 into the final framework. Each item says when it is needed by, its current status, why it matters, and what version 0.1 assumes while it is open.
 
 ## From Workstream 2 (Arthur): data, privacy, cybersecurity and AI risk
 
-| Item | Why WS1 needs it | What v0.1 assumes meanwhile | Status |
-|---|---|---|---|
-| Final Green / Amber / Red data classification | It determines which tools and which data are allowed in the sandbox | The working hypothesis from the brief is used in Documents 01 and 02 | Requested |
-| A "can I put this data into this tool" decision table per category | It turns the tool register into a rule users can apply in ten seconds | The two quick tests in Document 02, section 3.3 stand in | Requested |
-| DPIA thresholds and Cybersecurity trigger points | It defines when a project leaves the sandbox path for formal review | Red data never enters the sandbox (safe default) | Requested |
-| Secrets and credential standards for prototypes | Sandbox principle P6 needs the authoritative institutional standard | The OWASP Secrets Management Cheat Sheet is cited as interim | Requested |
-| The AI-specific control list (prompt injection, excessive agency, output verification) | It feeds the Tier 2/3 review gate and the agentic-risk column of the register | OWASP LLM Top 10 is cited as interim | Requested |
+| Item | Needed by | Status | Why WS1 needs it | What v0.1 assumes meanwhile |
+|---|---|---|---|---|
+| Final Green / Amber / Red data classification | Before the first Amber-data approval | Not started | It determines which tools and which data are allowed in the sandbox | The working hypothesis from the brief is used in Documents 01 and 02 |
+| A "can I put this data into this tool" decision table per category | Before the AUP ships to users | Not started | It turns the tool register into a rule users can apply in ten seconds | The two quick tests in Document 02, section 3.3 stand in |
+| DPIA thresholds and Cybersecurity trigger points | Before any Tier 2 work starts | Not started | It defines when a project leaves the sandbox path for formal review | Red data never enters the sandbox (safe default) |
+| Secrets and credential standards for prototypes | Before the sandbox infrastructure stand-up | Not started | Sandbox principle P6 needs the authoritative institutional standard | The OWASP Secrets Management Cheat Sheet is cited as interim |
+| The AI-specific control list (prompt injection, excessive agency, output verification) | Before the first promotion gate review | Not started | It feeds the Tier 2/3 review gate and the agentic-risk column of the register | OWASP LLM Top 10 is cited as interim |
 
 ## From Workstream 3 (Salah): prototype to production, ownership, sustainability
 
-| Item | Why WS1 needs it | What v0.1 assumes meanwhile | Status |
-|---|---|---|---|
-| Production-readiness gate and checklist | Document 02, section 3.5 exit criteria reference it as the promotion trigger | A placeholder summary of the gate is listed | Requested |
-| Ownership and lifecycle model | It decides the IP and owner wording behind principle P5 and Document 04 decision 5 | The named-owner requirement stands in | Requested |
-| Approved hosting and SSO standards | It tells sandbox projects which hosting targets to build toward | The Azure path is proposed as the default | Requested |
-| Definition of a reviewed integration | It sets the bar for sandbox-scoped connections to institutional systems | "Reviewed, sandbox-scoped interfaces only" stands in | Requested |
+| Item | Needed by | Status | Why WS1 needs it | What v0.1 assumes meanwhile |
+|---|---|---|---|---|
+| Production-readiness gate and checklist | Before the first promotion decision | Not started | Document 02, section 3.5 exit criteria reference it as the promotion trigger | A placeholder summary of the gate is listed |
+| Ownership and lifecycle model | Before the first student adoption case | Not started | It decides the IP and owner wording behind principle P5 and Document 04 decision 5 | The named-owner requirement stands in |
+| Approved hosting and SSO standards | Before the first promotion build | Not started | It tells sandbox projects which hosting targets to build toward | The Azure path is proposed as the default |
+| Definition of a reviewed integration | Before the first Amber-data interface | Not started | It sets the bar for sandbox-scoped connections to institutional systems | "Reviewed, sandbox-scoped interfaces only" stands in |
 
 ## From other INSEAD functions
 
-- Legal and Procurement: DPA and indemnity review per Approved tool, plus vendor onboarding steps.
-- Digital/IT: identity integration (Entra ID and SCIM), GitHub organisation setup, effort estimates for the sandbox stand-up.
-- Learning and Talent: content for the 15-minute onboarding module.
-- Communications: publication of the Acceptable Use Policy and the tool register to students and staff.
-- Data Protection Officer: the telemetry acceptability question in Document 04, section 5.
+| Function | What WS1 needs | Needed by | Status |
+|---|---|---|---|
+| Legal and Procurement | DPA and indemnity review per Approved tool, vendor onboarding steps | Before Amber data flows through any tool | Not started |
+| Digital/IT | Identity integration (Entra ID and SCIM), GitHub organisation setup, effort estimates | Before the sandbox stand-up | Not started |
+| Learning and Talent | Content for the 15-minute onboarding module | Before the module ships | Not started |
+| Communications | Publication of the AUP and the tool register | Before the register goes public | Not started |
+| Data Protection Officer | Position on acceptable telemetry (Document 04, section 5) | Before Approved tool configuration | Not started |
 
 ## What blocks what
 
@@ -45,7 +47,8 @@ This file states what Workstream 1 needs from the other workstreams and from INS
 
 - The tool register and glance table (Document 01) become Workstream 2's "which tool for which data" input.
 - The sandbox exit criteria (Document 02, section 3.5) become Workstream 3's gate input.
-- The glossary (Document 06) is the shared vocabulary for both workstreams.
+- The glossary (Document 06) is the shared vocabulary for both workstreams, including the acronyms list.
+- WS1 offers to run the four scenario tests (Document 02, section 6) as shared test cases once WS2 and WS3 finalise their parts.
 
 ## Questions for the other workstream leads
 

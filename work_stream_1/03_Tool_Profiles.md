@@ -8,6 +8,14 @@
 
 ## GitHub Copilot (all tiers)
 
+| Aspect | Detail |
+|---|---|
+| Status | Approved on Business/Enterprise; Experimental on Free/Pro |
+| Key risk | Individual tiers carry no org controls |
+| Best for | Default coding assistant for staff and developers |
+| Avoid for | Free/Pro use with anything beyond Green data |
+| Last verified | 3 September 2026 |
+
 ### Overview
 Copilot is the AI coding assistant embedded across GitHub's surfaces: VS Code, JetBrains, Visual Studio, GitHub.com and the CLI. It does code completion, chat about a codebase, code review, and now agentic work through the Copilot coding agent, which plans changes and opens pull requests from an issue or spec. The Copilot CLI reached general availability in February 2026. Plans run from a free tier through Pro (about $10 per user/month), Business (about $19) and Enterprise (about $39). From 1 June 2026 GitHub moved Copilot to usage-based billing, where the base subscription stays and consumption is metered in AI credits and premium requests. Sources: [Copilot plans](https://github.com/features/copilot/plans), [usage-based billing announcement](https://github.blog/news-insights/github-copilot-is-moving-to-usage-based-billing/), [Copilot CLI GA changelog](https://github.blog/changelog/2026-02-25-github-copilot-cli-is-now-generally-available/).
 
@@ -21,6 +29,14 @@ On Business and Enterprise, prompts and suggestions are not retained for trainin
 Approved on Business/Enterprise, provided Digital/IT configures SSO, SCIM, content exclusions, the model policy and audit log review. Free/Pro and the GitHub Education route are Experimental: Green data only. This is the anchor tool of the Approved stack proposed in Document 02.
 
 ## GitHub Copilot Workspace / coding agent
+
+| Aspect | Detail |
+|---|---|
+| Status | Approved on Business/Enterprise; Experimental on Free/Pro |
+| Key risk | Agentic edits at machine speed need review gates |
+| Best for | Issue-to-pull-request prototyping inside GitHub |
+| Avoid for | Unreviewed changes to production repositories |
+| Last verified | 3 September 2026 |
 
 ### Overview
 Copilot Workspace started as GitHub Next's agentic preview: you describe a task or open an issue, and the agent plans the change, edits the code and opens a pull request. It has since shipped as the Copilot coding agent across plans, metered through AI credits, alongside the Copilot CLI. Source: [GitHub Next: Copilot Workspace](https://githubnext.com/projects/copilot-workspace).
@@ -36,6 +52,14 @@ Approved for developers on Business/Enterprise with a review gate on agentic cha
 
 ## GitHub Education
 
+| Aspect | Detail |
+|---|---|
+| Status | Experimental (Green data only) |
+| Key risk | Individual accounts, no org audit, entitlements shifting |
+| Best for | Free Copilot for verified students and teachers |
+| Avoid for | Amber data or team-scale work without sponsored seats |
+| Last verified | 3 September 2026 |
+
 ### Overview
 GitHub Education gives verified students, teachers and open-source maintainers free access to Copilot, and students also get GitHub Pro benefits. Verification is individual (student ID or similar) rather than via INSEAD SSO. Sources: [GitHub Education](https://education.github.com), [free Copilot for students and teachers](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer).
 
@@ -49,6 +73,14 @@ Individual-tier policy applies: the Free/Pro retention and training defaults app
 Experimental (Green data only) as the default student route. Where a student project moves to Amber data or needs a team repository, INSEAD should sponsor Business seats instead of relying on the education route.
 
 ## GitHub Models
+
+| Aspect | Detail |
+|---|---|
+| Status | Experimental (public data only) |
+| Key risk | Not an enterprise service; provider-dependent handling |
+| Best for | Teaching and quick model comparisons |
+| Avoid for | Institutional or private data |
+| Last verified | 3 September 2026 |
 
 ### Overview
 GitHub Models is a playground and API inside GitHub for trying many models (OpenAI, Anthropic, Meta and others) without separate provider accounts. There is a free tier with rate limits, paid tiers for higher limits, and an upgrade path to Foundry Models on Azure. Source: [GitHub Docs: GitHub Models](https://docs.github.com/en/github-models/about-github-models).
@@ -64,6 +96,14 @@ Experimental: education and prototyping on public data only. For anything Amber 
 
 ## Azure AI Foundry + Azure OpenAI Service
 
+| Aspect | Detail |
+|---|---|
+| Status | Approved |
+| Key risk | Pay-as-you-go costs without spend alerts |
+| Best for | EU-compliant model workloads and the promotion hosting path |
+| Avoid for | Turning off content filters or monitoring |
+| Last verified | 3 September 2026 |
+
 ### Overview
 Azure AI Foundry is Microsoft's platform for building and operating AI applications, and Azure OpenAI Service is the managed gateway to OpenAI models inside Azure: token-based API, provisioned throughput, content safety filters, monitoring and enterprise identity. It is a model platform rather than a coding assistant, which is what makes it the build target for applications rather than the autocomplete layer. Sources: [Azure AI Foundry docs](https://learn.microsoft.com/en-us/azure/ai-foundry), [data privacy](https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/data-privacy).
 
@@ -77,6 +117,14 @@ No training on customer content, no sharing with OpenAI or other customers, and 
 Approved, and the preferred route for any INSEAD workload with EU privacy requirements. Pair it with content filters, diagnostic logging and Entra ID, and treat it as the natural hosting path for prototypes that will later promote to Tier 2.
 
 ## Cursor (Anysphere)
+
+| Aspect | Detail |
+|---|---|
+| Status | Approved on Teams/Enterprise; Experimental on individual plans |
+| Key risk | Individual plans without Privacy Mode |
+| Best for | Agentic IDE work with Privacy Mode and SSO |
+| Avoid for | Institutional data on free/Pro tiers |
+| Last verified | 3 September 2026 |
 
 ### Overview
 Cursor is an AI-native editor built on VS Code, with an agentic layer that can edit, run and explain code. Plans run from a free Hobby tier through Pro (from $20/month), Teams (Standard $40 and Premium $120 per user/month) to Enterprise (custom). Sources: [Cursor pricing](https://cursor.com/pricing), [Cursor enterprise privacy and data governance](https://cursor.com/docs/enterprise/privacy-and-data-governance).
@@ -92,6 +140,14 @@ Approved on Teams/Enterprise with Privacy Mode enforced and SSO configured. Expe
 
 ## Replit (including Replit Agent)
 
+| Aspect | Detail |
+|---|---|
+| Status | Experimental by default; Enterprise conditional |
+| Key risk | Legitimate-interest machine-learning clause |
+| Best for | Classroom prototyping on Green data |
+| Avoid for | Staff work with Amber data until Enterprise terms are confirmed |
+| Last verified | 3 September 2026 |
+
 ### Overview
 Replit is a browser-based IDE with hosting, collaboration and, since 2025, the Replit Agent that builds and deploys applications from prompts. Plans: free, Core $20/month, Pro $100/month, Enterprise custom. A Teams for Education offer exists, but its terms were not verifiable this round. Source: [Replit pricing](https://replit.com/pricing).
 
@@ -105,6 +161,14 @@ Users retain ownership of their content, while Replit holds a licence to host an
 Experimental by default (public/synthetic data). Approved only on the Enterprise plan after Digital/IT confirms the training, retention and audit terms contractually, and after checking Teams for Education eligibility with Replit.
 
 ## Lovable
+
+| Aspect | Detail |
+|---|---|
+| Status | Approved on Business/Enterprise; Experimental on Free/Pro |
+| Key risk | Free tier trains by default (opt-out exists) |
+| Best for | Fast web-app prototyping with a strong EU posture |
+| Avoid for | Amber data on Free/Pro without the opt-out |
+| Last verified | 3 September 2026 |
 
 ### Overview
 Lovable generates working web applications from natural-language prompts, with connectors to GitHub and Supabase for database and auth. It is a Swedish company, which matters for EU institutions. Plans are credit-based rather than per-seat: Free, Pro, Business, Enterprise, with a confirmed student discount. Sources: [Lovable pricing](https://lovable.dev/pricing), [Lovable students](https://lovable.dev/students).
@@ -120,6 +184,14 @@ Approved on Business/Enterprise. Experimental on Free/Pro, with the opt-out guid
 
 ## Bolt.new (StackBlitz)
 
+| Aspect | Detail |
+|---|---|
+| Status | Experimental by default; Enterprise conditional |
+| Key risk | Training policy not published on fetched pages |
+| Best for | No-install browser prototyping for students |
+| Avoid for | Institutional data until the DPA and training terms are confirmed |
+| Last verified | 3 September 2026 |
+
 ### Overview
 Bolt.new builds and runs full-stack applications in the browser on WebContainers, StackBlitz's technology for running the Node toolchain locally inside the browser tab. Bolt plans: free, Pro $25/month, Teams $30 per member/month, Enterprise custom. Source: [Bolt pricing](https://bolt.new/pricing).
 
@@ -133,6 +205,14 @@ StackBlitz's terms state it does not claim ownership of your data or content, an
 Experimental on free/Pro/Teams (Green data only). Approved only via Enterprise after confirming the data processing agreement and training terms.
 
 ## Windsurf (Codeium)
+
+| Aspect | Detail |
+|---|---|
+| Status | Approved (conditional) on Enterprise self-hosted; Experimental otherwise |
+| Key risk | Ownership status unverified |
+| Best for | Zero-data-retention IDE work, self-hosted |
+| Avoid for | Procurement before ownership is verified |
+| Last verified | 3 September 2026 |
 
 ### Overview
 Windsurf is an AI-native editor (a VS Code fork) with the Cascade agent. Plans: Pro $20/month, Max $200/month, Teams from $80/month plus $40 per developer seat, Enterprise custom. Official pricing pages are JavaScript-rendered, so the figures come from a third-party guide and need verification. Sources: [Windsurf security](https://windsurf.com/security), [third-party Windsurf business guide](https://www.layer3labs.io/guides/windsurf-for-business).
@@ -148,6 +228,14 @@ Approved on Enterprise (preferably self-hosted). Experimental on individual and 
 
 ## JetBrains AI Assistant
 
+| Aspect | Detail |
+|---|---|
+| Status | Approved (conditional) with org licensing |
+| Key risk | Prompts go to third-party LLM providers |
+| Best for | Teams already on JetBrains IDEs |
+| Avoid for | Institutional data before licensing and SSO are confirmed |
+| Last verified | 3 September 2026 |
+
 ### Overview
 JetBrains AI Assistant brings code completion, chat and agentic features into the IntelliJ family of IDEs, licensed per user as AI Pro or AI Ultimate, with education licences through the JetBrains education program. Source: [JetBrains AI](https://www.jetbrains.com/ai/).
 
@@ -161,6 +249,14 @@ Retention and deletion are managed through the JetBrains Account, with opt-out c
 Approved with org licensing, especially for teams already on JetBrains IDEs. Confirm enterprise SSO and regional processing with JetBrains before procurement.
 
 ## Amazon Q Developer
+
+| Aspect | Detail |
+|---|---|
+| Status | Approved on Pro only |
+| Key risk | Free tier content may be used for service improvement |
+| Best for | AWS-aligned teams |
+| Avoid for | The free tier with institutional data |
+| Last verified | 3 September 2026 |
 
 ### Overview
 Amazon Q Developer is AWS's assistant across the IDE (VS Code, JetBrains), the command line and the AWS console, with agentic features for code, tests and infrastructure. Plans: a free tier (about 50 agentic requests per month) and Pro at $19 per user/month. Source: [Amazon Q Developer pricing](https://aws.amazon.com/q/developer/pricing/).
@@ -176,6 +272,14 @@ Approved on Pro only, and clearly documented that the free tier is for learning 
 
 ## v0 by Vercel
 
+| Aspect | Detail |
+|---|---|
+| Status | Approved (conditional) on Business/Enterprise; Experimental below |
+| Key risk | SSO and training opt-out tiers to verify |
+| Best for | React/Next.js front-ends |
+| Avoid for | Institutional data until the tiers are verified |
+| Last verified | 3 September 2026 |
+
 ### Overview
 v0 generates React and Next.js front-ends from prompts and deploys them to Vercel. Plans: free, Premium $20/month, Team $30 per user/month, Business $100 per user/month, Enterprise custom. Sources: [v0](https://v0.app), [third-party pricing summary](https://www.bworlds.co/learn/v0-pricing/) (official cards are JavaScript-rendered; verify at v0.app/pricing).
 
@@ -189,6 +293,14 @@ Lower tiers may use data for training with opt-out controls; Business and above 
 Approved on Business/Enterprise once the tier specifics are verified. Experimental below that (Green data only).
 
 ## Devin (Cognition)
+
+| Aspect | Detail |
+|---|---|
+| Status | Restricted by default |
+| Key risk | Autonomous cloud agent with unverified controls |
+| Best for | Nothing institutionally until an Enterprise contract is verified |
+| Avoid for | Repositories containing anything sensitive |
+| Last verified | 3 September 2026 |
 
 ### Overview
 Devin is an autonomous software engineer agent: it plans, writes code, runs commands and opens pull requests inside cloud sandboxes. Plans: free, Pro $20/month, Max $200/month, Teams usage-based from $80/month, Enterprise custom. Sources: [new self-serve plans](https://cognition.com/blog/new-self-serve-plans-for-devin), [devin.ai](https://devin.ai).
@@ -204,6 +316,14 @@ Restricted by default. Approved only under an Enterprise contract after Digital/
 
 ## Tabnine
 
+| Aspect | Detail |
+|---|---|
+| Status | Approved self-hosted; Experimental on cloud plans |
+| Key risk | Audit depth beyond the admin console unconfirmed |
+| Best for | Privacy-sensitive code via self-hosting |
+| Avoid for | Cloud plans with Amber data |
+| Last verified | 3 September 2026 |
+
 ### Overview
 Tabnine is a privacy-first AI code assistant with IDE plugins (VS Code, JetBrains) and a CLI, aimed at teams that need strict control over where code goes. Deployment options include cloud, self-hosted, VPC and air-gapped enterprise installations. Pricing runs about $9 per user/month for Dev and about $39 for Enterprise (verify on the pricing page). Sources: [deployment options](https://docs.tabnine.com/main/welcome/readme/architecture/deployment-options), [pricing](https://www.tabnine.com/pricing/).
 
@@ -218,6 +338,14 @@ Approved for privacy-sensitive projects via the self-hosted Enterprise path. Exp
 
 ## Microsoft 365 Copilot (adjacent tooling)
 
+| Aspect | Detail |
+|---|---|
+| Status | Approved (conditional) for staff productivity |
+| Key risk | Flex routing may leave the EU unless configured |
+| Best for | Office productivity, not app building |
+| Avoid for | Assuming EU residency without checking the tenant settings |
+| Last verified | 3 September 2026 |
+
 ### Overview
 Microsoft 365 Copilot is the Office productivity assistant ($30 per user/month, with a free Copilot Chat tier). It is not an application-development tool, but the brief lists Microsoft/GitHub tooling among the tools to assess, and staff will ask about it, so the register should cover it. Source: [Microsoft 365 Copilot](https://www.microsoft.com/en-us/microsoft-365/copilot).
 
@@ -231,6 +359,14 @@ Microsoft states it does not train models on tenant data. The flex-routing cavea
 Approved for staff productivity with the EU Data Boundary and flex-routing settings confirmed. It sits outside the application-development sandbox scope, but listing it in the register keeps the "is this allowed" question answered in one place.
 
 ## Open-source agentic CLIs (Cline, Aider, OpenHands, Continue.dev)
+
+| Aspect | Detail |
+|---|---|
+| Status | Approved via institutional BYOK gateway; Experimental with personal keys |
+| Key risk | Local API keys and unmanaged spend |
+| Best for | Technical staff with the gateway and secrets rules applied |
+| Avoid for | Personal keys with institutional data |
+| Last verified | 3 September 2026 |
 
 ### Overview
 These are the open-source tools technical users run locally: Cline (VS Code extension), Aider (terminal), OpenHands (Docker-based agent) and Continue.dev (IDE assistant). All are free software where the user supplies their own model API key (BYOK). Sources: [Cline](https://github.com/cline/cline), [Aider](https://aider.chat), [OpenHands](https://openhands.dev), [Continue.dev](https://continue.dev).
@@ -248,6 +384,14 @@ Approved for developers and students when configured against the institutional B
 
 ## OpenAI Codex (CLI + cloud)
 
+| Aspect | Detail |
+|---|---|
+| Status | Approved on Enterprise/Edu; Experimental on personal plans |
+| Key risk | Personal-plan accounts have no org controls |
+| Best for | Agentic coding with permission profiles on enterprise accounts |
+| Avoid for | Personal accounts with institutional data |
+| Last verified | 3 September 2026 |
+
 ### Overview
 Codex is OpenAI's coding agent: an open-source CLI plus cloud tasks that run on ChatGPT accounts, with IDE integration. Plans run from free through Go/Plus/Pro on ChatGPT, and the tool can be pointed at an API key instead of a subscription. Sources: [OpenAI Codex docs](https://developers.openai.com/codex/), [OpenAI enterprise privacy](https://openai.com/enterprise-privacy/).
 
@@ -261,6 +405,14 @@ API traffic has not been used for training since 1 March 2023, abuse logs are ke
 Approved on Enterprise/Edu accounts with SAML, SCIM and the Compliance API enabled. Experimental on personal plans (Green data only).
 
 ## Claude Code (Anthropic)
+
+| Aspect | Detail |
+|---|---|
+| Status | Approved on Team/Enterprise; Experimental on Pro/Max |
+| Key risk | Consumer plans have opt-in training |
+| Best for | Terminal-first agentic work with permission modes |
+| Avoid for | Institutional work on personal plans |
+| Last verified | 3 September 2026 |
 
 ### Overview
 Claude Code is Anthropic's agentic coding tool for the terminal, IDE, desktop and web, backed by Claude plans (Pro/Max/Team/Enterprise). It reads the codebase, edits files, runs commands and opens pull requests, with permission modes that control what it may do without asking. Source: [Claude Code docs](https://code.claude.com/docs/en/overview).
@@ -276,6 +428,14 @@ Approved on Team/Enterprise with permission modes configured and monitoring enab
 
 ## Gemini CLI (Google)
 
+| Aspect | Detail |
+|---|---|
+| Status | Experimental (Green data only) |
+| Key risk | Personal Google account, no org audit |
+| Best for | Personal terminal experimentation and teaching |
+| Avoid for | Institutional data of any class |
+| Last verified | 3 September 2026 |
+
 ### Overview
 Gemini CLI is Google's open-source (Apache 2.0) terminal agent for Gemini, with a free tier of 60 requests per minute and 1,000 per day on a personal Google account, MCP support, file operations and Google Search grounding. Source: [Gemini CLI repository](https://github.com/google-gemini/gemini-cli), [Gemini CLI docs](https://www.geminicli.com/docs/).
 
@@ -289,6 +449,14 @@ The data policy is the personal Google account's AI Studio settings, which were 
 Experimental (Green data only), on personal accounts. Institutional Gemini use should go through Gemini Code Assist or Google Cloud instead.
 
 ## Gemini Code Assist (Google Cloud)
+
+| Aspect | Detail |
+|---|---|
+| Status | Approved (conditional) on Enterprise; Experimental on Standard |
+| Key risk | SSO, audit and residency wording still to confirm |
+| Best for | Teams standardising on Google Cloud |
+| Avoid for | Procurement before the condition is closed |
+| Last verified | 3 September 2026 |
 
 ### Overview
 Gemini Code Assist is Google's enterprise coding assistant for IDEs (VS Code, JetBrains) and Google Cloud, in two editions: Standard and Enterprise. Source: [Code Assist overview](https://cloud.google.com/gemini/docs/codeassist/overview).

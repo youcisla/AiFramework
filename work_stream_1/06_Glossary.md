@@ -190,4 +190,30 @@ INSEAD relevance: ZDR strengthens but does not replace data classification. Data
 
 ---
 
+## Acronyms
+
+- AIMS: AI management system (ISO/IEC 42001)
+- AUP: acceptable use policy
+- BAA: business associate agreement
+- BYOK: bring your own key
+- CMEK: customer-managed encryption keys
+- DPA: data processing agreement
+- DPIA: data protection impact assessment
+- EMU: enterprise managed users (GitHub)
+- EUDB: EU Data Boundary (Microsoft)
+- GDPR: General Data Protection Regulation
+- IAM: identity and access management
+- IP: intellectual property
+- LLM: large language model
+- MCP: Model Context Protocol
+- PTU: provisioned throughput unit (Azure)
+- RBAC: role-based access control
+- SAML: Security Assertion Markup Language
+- SCIM: System for Cross-domain Identity Management
+- SCC: standard contractual clauses
+- SSO: single sign-on
+- SOC 2: service organisation controls report (AICPA)
+- WS1/WS2/WS3: Workstreams 1, 2 and 3
+- ZDR: zero data retention
+
 *Working note: external URLs in this document were checked on 3 September 2026 and are re-verified in the final consistency pass (see 05 - Sources and References). Terms specific to this framework are marked "(INSEAD definition, proposed)".*

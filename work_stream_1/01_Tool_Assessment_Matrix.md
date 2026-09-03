@@ -47,6 +47,7 @@ Method notes:
 
 1. Facts come from vendor documentation, trust centres and changelogs, all accessed 3 September 2026. Sources are numbered [S#] and listed under each table group.
 2. Where a fact could not be confirmed from an authoritative page, the cell says "To be researched" and names the page to check. This follows the brief's rule: flag uncertainties rather than assume.
+3. Last verified: every fact in this matrix was checked against its source on 3 September 2026. The register process in Document 02 re-verifies each row quarterly, and any row whose vendor pages have changed gets a fresh verification date before it is relied on for procurement.
 3. Cells are intentionally short. Document 03 carries the full per-tool profiles.
 4. Verdicts use the framework categories: Approved (institutional use under defined conditions), Experimental (prototyping with public/synthetic/non-sensitive data only), Restricted/Prohibited (unsuitable for institutional data or development).
 5. Verdicts assume the sandbox context in Document 02: Tier 0 and Tier 1 prototyping with Green data by default, Amber only in Approved tools with review, Red data never in the sandbox.

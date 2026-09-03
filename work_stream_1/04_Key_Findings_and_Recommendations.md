@@ -19,6 +19,21 @@
 9. Open-source BYOK tools are a governance pattern, not a vendor risk. Cline, Aider, OpenHands and Continue.dev add no new data controller. Pointed at an institutional gateway (Azure OpenAI or an enterprise API), they inherit enterprise protections; pointed at personal keys, they create leak and spend risk with no audit.
 10. The sandbox is implementable now. Identity, a dedicated GitHub organisation, a tool register, data rules and named owners are configuration and policy, not a build project. The expensive part is the one thing INSEAD must do anyway: procuring at least one enterprise-grade stack.
 
+## Numbers in brief
+
+- 22 tools assessed across four groups, plus 4 emerging entries on the watchlist (Document 01).
+- Verdicts: 15 Approved (5 of them conditional on vendor confirmation), 7 Experimental, 1 Restricted, 2 watchlist, 1 resource.
+- The matrix carries 90+ source links, every one HTTP-checked on 3 September 2026.
+- The approved default stack (GitHub Copilot Business/Enterprise plus Azure OpenAI) meets every gate criterion: SSO, SCIM, no-training terms, audit logs, content exclusions, EU residency, IP indemnity.
+- 36 facts remain flagged "To be researched", each naming the exact page that will close it.
+
+## Trade-offs accepted in this version
+
+1. Speed against certainty: five Approved verdicts are conditional rather than delayed, so procurement closes them instead of the research phase. The cost is that leadership must read the condition inside the verdict.
+2. Reach against audit: Experimental tools on personal accounts accept that Tier 0 work has no institutional audit trail. The trade is Green-only data and a registration requirement the moment work becomes Tier 1.
+3. Strictness against usability: Red data never enters the sandbox, which is the safe default but pushes legitimate Red-data projects straight into formal review. Workstream 2 can relax this once its classification and DPIA thresholds exist.
+4. Minimal stack against optionality: the recommended Approved set starts with GitHub and Microsoft only, which is cheaper and easier to operate but leaves strong tools (Cursor, Lovable) on the conditional list until the first quarterly review.
+
 ## 2. Proposed structure of the final deliverable
 
 Workstream 1 feeds the framework at the BUILD SAFELY stage and answers the "where and with which tools" question for every tier:

@@ -104,6 +104,18 @@ Two quick tests are published with the AUP. Test one: could this be printed on a
 
 Leaving the sandbox is a promotion decision, not an automatic step. The trigger is one of Workstream 3's outcome routes: Adopt/secure the prototype; Rebuild on an approved platform; Implement through an existing vendor/product; Retain requirements and learning for the roadmap; or Stop. Promotion requires the Workstream 3 production-readiness gate: named business and technical owners, architecture/security/privacy review, approved hosting and SSO, repository/code-quality/test evidence, secrets management, logging/monitoring, documentation, support model, licensing/procurement, funding and retirement plan. The sandbox's job is to have made the prototype easy to evaluate (clean repo, declared data, named owner), not to have pre-approved it.
 
+### 3.6 A user journey
+
+How the sandbox feels day to day, for two typical users.
+
+Mary, a student, wants to prototype a timetable app for a class project. She opens the Digital/IT portal, signs in with her INSEAD account, and takes the 15-minute onboarding module, which ends with her accepting the AUP. The tool register shows her what is allowed; she picks Lovable's free tier, which is Experimental, and the register tells her that means Green data only. She builds against synthetic data, commits her code to the sandbox GitHub organisation, and registers the project in two minutes with her name on it. Six weeks later she wants INSEAD to consider deploying it. Her faculty sponsor triggers the promotion path: the project leaves the sandbox only through the Workstream 3 gate, with a named owner agreed before anything runs in production.
+
+John, a staff developer in a programme office, gets GitHub Copilot provisioned through his institutional account, with SSO, content exclusions and the model policy already set by Digital/IT. He wants to build an analytics view over learning-platform data. That is Amber, so he files a short data-use note, gets the reviewed, sandbox-scoped interface approved, and builds on Azure OpenAI in an EU region. When the prototype is ready, the same Workstream 3 gate decides whether it becomes an institutional application, is rebuilt on an approved platform, or stays as requirements for the roadmap.
+
+The point of both journeys: the sandbox adds minutes of process at the start (onboarding, registration) and real process only at the end (promotion). The middle stays fast, because the boundaries are what carry the risk.
+
+
+
 ```mermaid
 flowchart TD
   O[Onboarding: SSO + 15-min module + AUP] --> R{Project registered?}
@@ -178,6 +190,17 @@ Obligations: the register explains why, and the sandbox provides an approved alt
 ---
 
 ## 6. Testing against representative scenarios
+
+The quick answer for each brief scenario, with the detailed question-by-question table below:
+
+| Scenario | Tools | Data class | Sandbox category | Exit route |
+|---|---|---|---|---|
+| Case A: student event/timetable app on synthetic data | Any Approved or Experimental (for example Replit, Lovable free) | Green | Tier 0/1, Experimental tools fine | Stays in sandbox unless promoted |
+| Case B: team analytics on learning-platform data | Approved only (for example GitHub Copilot Business/Enterprise, Azure OpenAI) | Amber | Tier 1, Approved tools with a data-use note | Workstream 3 gate if promoted |
+| Case C: AI assistant processing student submissions | Approved tooling under WS2/Cybersecurity review; not built in the sandbox | Red | Tier 3 path, outside the sandbox | Workstream 3 gate with AI-specific risk assessment |
+| Case D: student app proposed for institutional deployment | Per register; Approved tools for the promotion build | Green/Amber until promotion | Tier 0/1, then exit | Workstream 3 gate with ownership transfer |
+
+
 
 | Question | Case A: student event/timetable app (synthetic data) | Case B: team analytics app on learning-platform data | Case C: AI assistant processing student submissions | Case D: student app proposed for institutional deployment |
 |---|---|---|---|---|

@@ -3,6 +3,8 @@
 AI Development Tools & Safe Development Environments
 INSEAD | Version 0.1 (draft) | 3 September 2026
 
+[![Status: Draft v0.1](https://img.shields.io/badge/Status-Draft%20v0.1-yellow)](README.md)
+
 Workstream 1 documents: [01 - Tool Assessment Matrix](work_stream_1/01_Tool_Assessment_Matrix.md) | [02 - Sanctioned Sandbox Principles](work_stream_1/02_Sanctioned_Sandbox_Principles.md) | [03 - Tool Profiles](work_stream_1/03_Tool_Profiles.md) | [04 - Key Findings & Recommendations](work_stream_1/04_Key_Findings_and_Recommendations.md) | [05 - Sources and References](work_stream_1/05_Sources_and_References.md) | [06 - Glossary](work_stream_1/06_Glossary.md) | [07 - Dependencies and Handoffs](work_stream_1/07_Dependencies_and_Handoffs.md)
 
 ## Framework context
@@ -28,7 +30,7 @@ Tool categories (this workstream): Approved | Experimental | Restricted/Prohibit
 
 Data classes (Workstream 2 hypothesis): Green (public/synthetic/non-sensitive) | Amber (internal) | Red (personal/confidential/student/credential/sensitive research).
 
-Source brief: [AI-Assisted Application Development Intern Brief (PDF)](docs/AI_Assisted_Application_Development_Intern_Brief.pdf)
+Source brief: [AI-Assisted Application Development Intern Brief (PDF)](docs/AI_Assisted_Application_Development_Intern_Brief.pdf) | [(DOCX)](docs/AI_Assisted_Application_Development_Intern_Brief.docx)
 
 ## Documents
 
@@ -53,7 +55,13 @@ What is complete:
 - [x] Key findings, 10 recommendations, decisions needed, open questions (Document 04)
 - [x] Categorised sources with access dates (Document 05)
 - [x] Glossary including cross-stream terms (Document 06)
-- [x] Dependencies and handoffs (Document 07)
+- [x] Dependencies and handoffs with timeline and status columns (Document 07)
+- [x] Case-study quick table for the four brief scenarios (Document 02, section 6)
+- [x] User journeys for a student and a staff member (Document 02, section 3.6)
+- [x] Mermaid diagrams of the framework pipeline and the sandbox lifecycle
+- [x] Numbers in brief and accepted trade-offs (Document 04)
+- [x] Quick-reference table at the top of every tool profile (Document 03)
+- [x] Acronyms list (Document 06)
 
 What is in progress:
 
