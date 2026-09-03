@@ -114,8 +114,6 @@ John, a staff developer in a programme office, gets GitHub Copilot provisioned t
 
 The point of both journeys: the sandbox adds minutes of process at the start (onboarding, registration) and real process only at the end (promotion). The middle stays fast, because the boundaries are what carry the risk.
 
-
-
 ```mermaid
 flowchart TD
   O[Onboarding: SSO + 15-min module + AUP] --> R{Project registered?}
@@ -199,8 +197,6 @@ The quick answer for each brief scenario, with the detailed question-by-question
 | Case B: team analytics on learning-platform data | Approved only (for example GitHub Copilot Business/Enterprise, Azure OpenAI) | Amber | Tier 1, Approved tools with a data-use note | Workstream 3 gate if promoted |
 | Case C: AI assistant processing student submissions | Approved tooling under WS2/Cybersecurity review; not built in the sandbox | Red | Tier 3 path, outside the sandbox | Workstream 3 gate with AI-specific risk assessment |
 | Case D: student app proposed for institutional deployment | Per register; Approved tools for the promotion build | Green/Amber until promotion | Tier 0/1, then exit | Workstream 3 gate with ownership transfer |
-
-
 
 | Question | Case A: student event/timetable app (synthetic data) | Case B: team analytics app on learning-platform data | Case C: AI assistant processing student submissions | Case D: student app proposed for institutional deployment |
 |---|---|---|---|---|

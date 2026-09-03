@@ -48,9 +48,9 @@ Method notes:
 1. Facts come from vendor documentation, trust centres and changelogs, all accessed 3 September 2026. Sources are numbered [S#] and listed under each table group.
 2. Where a fact could not be confirmed from an authoritative page, the cell says "To be researched" and names the page to check. This follows the brief's rule: flag uncertainties rather than assume.
 3. Last verified: every fact in this matrix was checked against its source on 3 September 2026. The register process in Document 02 re-verifies each row quarterly, and any row whose vendor pages have changed gets a fresh verification date before it is relied on for procurement.
-3. Cells are intentionally short. Document 03 carries the full per-tool profiles.
-4. Verdicts use the framework categories: Approved (institutional use under defined conditions), Experimental (prototyping with public/synthetic/non-sensitive data only), Restricted/Prohibited (unsuitable for institutional data or development).
-5. Verdicts assume the sandbox context in Document 02: Tier 0 and Tier 1 prototyping with Green data by default, Amber only in Approved tools with review, Red data never in the sandbox.
+4. Cells are intentionally short. Document 03 carries the full per-tool profiles.
+5. Verdicts use the framework categories: Approved (institutional use under defined conditions), Experimental (prototyping with public/synthetic/non-sensitive data only), Restricted/Prohibited (unsuitable for institutional data or development).
+6. Verdicts assume the sandbox context in Document 02: Tier 0 and Tier 1 prototyping with Green data by default, Amber only in Approved tools with review, Red data never in the sandbox.
 
 ## Group A: GitHub and Microsoft tooling
 
@@ -125,8 +125,6 @@ Sources for Group B:
 - B26: Google Cloud, security products (VPC Service Controls, CMEK), <https://cloud.google.com/security/products/>
 - B27: OpenAI Codex CLI repository, <https://github.com/openai/codex>
 
-
-
 ## Group C: Browser and IDE-native app builders, plus other significant tools
 
 ## Group C: Browser and IDE-native app builders, plus other significant tools
@@ -189,8 +187,6 @@ Sources for Group C:
 - C37: Microsoft Purview, <https://learn.microsoft.com/en-us/purview/>
 - C38: Amazon Q Developer data storage, <https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/data-storage.html>
 - L3: third-party Microsoft 365 Copilot residency analysis (verify with Microsoft), <https://www.kriv.ai/articles/data-residency-and-sovereignty-controls-for-copilot>
-
-
 
 ## Group D: Emerging tools and market pulse (window 2026-08-04 to 2026-09-03)
 

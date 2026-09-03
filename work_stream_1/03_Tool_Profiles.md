@@ -470,8 +470,6 @@ No-training commitment documented; residency and audit specifics to be confirmed
 ### Recommendation
 Approved for the Enterprise edition once SSO and residency are confirmed with Google. Experimental for Standard (Green data only). If INSEAD standardises on Google Cloud for hosting, this becomes a natural part of that stack.
 
-
-
 ---
 
 *Working note: every "to be researched" item names the page to check. Prices and model lists are volatile and should be re-verified on vendor pages at each quarterly register review.*
