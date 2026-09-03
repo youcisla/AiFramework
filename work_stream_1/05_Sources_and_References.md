@@ -2,7 +2,7 @@
 
 > Workstream 1 | INSEAD AI-Assisted Application Development Framework | Version 0.1 (draft) | 3 September 2026
 >
-> Workstream 1 documents: [01 - Tool Assessment Matrix](01_Tool_Assessment_Matrix.md) | [02 - Sanctioned Sandbox Principles](02_Sanctioned_Sandbox_Principles.md) | [03 - Tool Profiles](03_Tool_Profiles.md) | [04 - Key Findings & Recommendations](04_Key_Findings_and_Recommendations.md) | [05 - Sources and References](05_Sources_and_References.md) | [06 - Glossary](06_Glossary.md)
+> Workstream 1 documents: [01 - Tool Assessment Matrix](01_Tool_Assessment_Matrix.md) | [02 - Sanctioned Sandbox Principles](02_Sanctioned_Sandbox_Principles.md) | [03 - Tool Profiles](03_Tool_Profiles.md) | [04 - Key Findings & Recommendations](04_Key_Findings_and_Recommendations.md) | [05 - Sources and References](05_Sources_and_References.md) | [06 - Glossary](06_Glossary.md) | [07 - Dependencies and Handoffs](07_Dependencies_and_Handoffs.md)
 >
 > Every source cited across the workstream documents, grouped by category. Date accessed: 3 September 2026 unless noted. Items marked "bot-gated" returned HTTP 403 to automated checks but are live pages in a browser; items marked "JS-rendered" need a browser to read and were summarised from third-party pages where noted.
 
@@ -69,7 +69,7 @@
 - Cursor enterprise privacy and data governance. <https://cursor.com/docs/enterprise/privacy-and-data-governance> - Privacy Mode, ZDR, model controls, residency.
 - Cursor DPA. <https://cursor.com/terms/dpa> - data processing terms.
 - Replit pricing. <https://replit.com/pricing> - plan tiers and enterprise features.
-- Replit privacy policy. <https://replit.com/site/privacy> - machine-learning improvement rights.
+- Replit privacy policy (updated 3 August 2026). <https://replit.com/site/privacy> - legitimate-interest machine-learning clause verified against the live page.
 - Replit terms. <https://replit.com/site/terms> - ownership and access clauses.
 - Lovable pricing. <https://lovable.dev/pricing> - credit-based plans and ownership statement.
 - Lovable privacy. <https://lovable.dev/privacy> - GDPR posture, training opt-outs.

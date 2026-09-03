@@ -2,7 +2,7 @@
 
 > Workstream 1 | INSEAD AI-Assisted Application Development Framework | Version 0.1 (draft) | 3 September 2026
 >
-> Workstream 1 documents: [01 - Tool Assessment Matrix](01_Tool_Assessment_Matrix.md) | [02 - Sanctioned Sandbox Principles](02_Sanctioned_Sandbox_Principles.md) | [03 - Tool Profiles](03_Tool_Profiles.md) | [04 - Key Findings & Recommendations](04_Key_Findings_and_Recommendations.md) | [05 - Sources and References](05_Sources_and_References.md) | [06 - Glossary](06_Glossary.md)
+> Workstream 1 documents: [01 - Tool Assessment Matrix](01_Tool_Assessment_Matrix.md) | [02 - Sanctioned Sandbox Principles](02_Sanctioned_Sandbox_Principles.md) | [03 - Tool Profiles](03_Tool_Profiles.md) | [04 - Key Findings & Recommendations](04_Key_Findings_and_Recommendations.md) | [05 - Sources and References](05_Sources_and_References.md) | [06 - Glossary](06_Glossary.md) | [07 - Dependencies and Handoffs](07_Dependencies_and_Handoffs.md)
 >
 > One profile per tool in [01 - Tool Assessment Matrix](01_Tool_Assessment_Matrix.md). Each profile covers what the tool does, how it fits an institution like INSEAD, what happens to data, and where it should sit (Approved / Experimental / Restricted). Sources are given inline and consolidated in [05 - Sources and References](05_Sources_and_References.md).
 
@@ -96,7 +96,7 @@ Approved on Teams/Enterprise with Privacy Mode enforced and SSO configured. Expe
 Replit is a browser-based IDE with hosting, collaboration and, since 2025, the Replit Agent that builds and deploys applications from prompts. Plans: free, Core $20/month, Pro $100/month, Enterprise custom. A Teams for Education offer exists, but its terms were not verifiable this round. Source: [Replit pricing](https://replit.com/pricing).
 
 ### Institutional assessment
-Replit's classroom workflow is genuinely useful, and the Enterprise plan provides SAML SSO, single-tenant environments and static outbound IPs. The problems sit in the data story: the privacy policy reserves the right to use personal data to improve machine learning technologies such as code generation, the classic public-repl training clause was not located in the current terms, and audit logging is not documented on the pages that could be fetched. For an institution, that is the difference between "good product" and "verifiable product".
+Replit's classroom workflow is genuinely useful, and the Enterprise plan provides SAML SSO, single-tenant environments and static outbound IPs. The problems sit in the data story: the privacy policy (updated 3 August 2026) keeps a legitimate-interest right to use personal data to improve machine learning technologies such as code generation, no separate public-repl training clause appears in the current privacy policy or terms, and audit logging is not documented on the pages that could be fetched. For an institution, that is the difference between "good product" and "verifiable product".
 
 ### Data and privacy considerations
 Users retain ownership of their content, while Replit holds a licence to host and serve it and may access private apps for troubleshooting and security. Sources: [Replit privacy](https://replit.com/site/privacy), [Replit terms](https://replit.com/site/terms).

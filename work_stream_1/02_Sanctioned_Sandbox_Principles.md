@@ -2,7 +2,7 @@
 
 > Workstream 1 | INSEAD AI-Assisted Application Development Framework | Version 0.1 (draft) | 3 September 2026
 >
-> Workstream 1 documents: [01 - Tool Assessment Matrix](01_Tool_Assessment_Matrix.md) | [02 - Sanctioned Sandbox Principles](02_Sanctioned_Sandbox_Principles.md) | [03 - Tool Profiles](03_Tool_Profiles.md) | [04 - Key Findings & Recommendations](04_Key_Findings_and_Recommendations.md) | [05 - Sources and References](05_Sources_and_References.md) | [06 - Glossary](06_Glossary.md)
+> Workstream 1 documents: [01 - Tool Assessment Matrix](01_Tool_Assessment_Matrix.md) | [02 - Sanctioned Sandbox Principles](02_Sanctioned_Sandbox_Principles.md) | [03 - Tool Profiles](03_Tool_Profiles.md) | [04 - Key Findings & Recommendations](04_Key_Findings_and_Recommendations.md) | [05 - Sources and References](05_Sources_and_References.md) | [06 - Glossary](06_Glossary.md) | [07 - Dependencies and Handoffs](07_Dependencies_and_Handoffs.md)
 >
 > Companion documents: [01 - Tool Assessment Matrix](01_Tool_Assessment_Matrix.md), [03 - Tool Profiles](03_Tool_Profiles.md), [04 - Key Findings & Recommendations](04_Key_Findings_and_Recommendations.md). This document defines the "where and how" of safe experimentation. Workstream 2 defines the data rules; Workstream 3 defines the exit (prototype-to-production) gate.
 
@@ -103,6 +103,17 @@ Two quick tests are published with the AUP. Test one: could this be printed on a
 ### 3.5 What happens when a prototype is ready to leave
 
 Leaving the sandbox is a promotion decision, not an automatic step. The trigger is one of Workstream 3's outcome routes: Adopt/secure the prototype; Rebuild on an approved platform; Implement through an existing vendor/product; Retain requirements and learning for the roadmap; or Stop. Promotion requires the Workstream 3 production-readiness gate: named business and technical owners, architecture/security/privacy review, approved hosting and SSO, repository/code-quality/test evidence, secrets management, logging/monitoring, documentation, support model, licensing/procurement, funding and retirement plan. The sandbox's job is to have made the prototype easy to evaluate (clean repo, declared data, named owner), not to have pre-approved it.
+
+```mermaid
+flowchart TD
+  O[Onboarding: SSO + 15-min module + AUP] --> R{Project registered?}
+  R -->|Tier 0| T0[Self-attest, Green data, any sandbox tool]
+  R -->|Tier 1| T1[Sponsor, Green or Amber with note, Approved tools]
+  T0 --> E{Promotion wanted?}
+  T1 --> E
+  E -->|No| N[Stays in the sandbox or is archived]
+  E -->|Yes| W3[Workstream 3 gate:<br/>adopt / rebuild / vendor / roadmap / stop]
+```
 
 ---
 

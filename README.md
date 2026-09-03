@@ -3,13 +3,24 @@
 AI Development Tools & Safe Development Environments
 INSEAD | Version 0.1 (draft) | 3 September 2026
 
-Workstream 1 documents: [01 - Tool Assessment Matrix](work_stream_1/01_Tool_Assessment_Matrix.md) | [02 - Sanctioned Sandbox Principles](work_stream_1/02_Sanctioned_Sandbox_Principles.md) | [03 - Tool Profiles](work_stream_1/03_Tool_Profiles.md) | [04 - Key Findings & Recommendations](work_stream_1/04_Key_Findings_and_Recommendations.md) | [05 - Sources and References](work_stream_1/05_Sources_and_References.md) | [06 - Glossary](work_stream_1/06_Glossary.md)
+Workstream 1 documents: [01 - Tool Assessment Matrix](work_stream_1/01_Tool_Assessment_Matrix.md) | [02 - Sanctioned Sandbox Principles](work_stream_1/02_Sanctioned_Sandbox_Principles.md) | [03 - Tool Profiles](work_stream_1/03_Tool_Profiles.md) | [04 - Key Findings & Recommendations](work_stream_1/04_Key_Findings_and_Recommendations.md) | [05 - Sources and References](work_stream_1/05_Sources_and_References.md) | [06 - Glossary](work_stream_1/06_Glossary.md) | [07 - Dependencies and Handoffs](work_stream_1/07_Dependencies_and_Handoffs.md)
 
 ## Framework context
 
-The framework governs how an AI-assisted prototype progresses from experimentation to an institutional product, with governance increasing proportionately with risk and impact (Intern Research Brief working principle). It applies whether a solution originates from a student, faculty member, staff member or the Digital/IT team, along the path:
+The framework governs how an AI-assisted prototype progresses from experimentation to an institutional product, with governance increasing proportionately with risk and impact (Intern Research Brief working principle). It applies whether a solution originates from a student, faculty member, staff member or the Digital/IT team.
 
-IDEA -> CLASSIFY -> BUILD SAFELY -> TEST / REVIEW -> PROMOTE? -> PRODUCTION -> OWN / MONITOR / RETIRE
+```mermaid
+flowchart LR
+  A[IDEA] --> B[CLASSIFY<br/>risk tier + data class]
+  B --> C[BUILD SAFELY<br/>sanctioned sandbox]
+  C --> D[TEST / REVIEW]
+  D --> E{PROMOTE?}
+  E -- no --> F[Roadmap / stop / rebuild]
+  E -- yes --> G[PRODUCTION<br/>Workstream 3 gate]
+  G --> H[OWN / MONITOR / RETIRE]
+  C -.-> S((Sandbox rules:<br/>Green by default,<br/>Approved tools,<br/>named owner))
+  G -.-> P((Production controls:<br/>Workstreams 2 and 3))
+```
 
 Risk tiers (working hypothesis): Tier 0 personal experiment | Tier 1 internal prototype | Tier 2 institutional application | Tier 3 high-impact/sensitive.
 
@@ -29,10 +40,29 @@ Source brief: [AI-Assisted Application Development Intern Brief (PDF)](docs/AI_A
 | 04 | [Key Findings & Recommendations](work_stream_1/04_Key_Findings_and_Recommendations.md) | Executive summary: findings, top recommendations, decisions needed, open questions, dependencies on Workstreams 2 and 3 |
 | 05 | [Sources and References](work_stream_1/05_Sources_and_References.md) | Categorised reference list (vendor docs, security/compliance, higher-ed examples, standards) |
 | 06 | [Glossary](work_stream_1/06_Glossary.md) | Key terms for AI development tools and safe development environments |
+| 07 | [Dependencies and Handoffs](work_stream_1/07_Dependencies_and_Handoffs.md) | What WS1 needs from Workstreams 2 and 3 and from INSEAD functions, with owners and interim assumptions |
 
 ## Status and next steps
 
-- Version 0.1 draft, leadership-ready: Document 01 opens with an at-a-glance verdict table, and verdicts that rest on unverified facts are marked "Approved (conditional)" with the condition written into the verdict.
-- Every "To be researched" item is flagged with where to find the answer, and a named Restricted list with reasons is published in Documents 01 and 02.
-- Open questions and decisions needed are consolidated in Document 04, which carries light inline citations and a key-sources footer.
-- Dependencies: Documents 01 and 02 assume Workstream 2's Green/Amber/Red data classification (working hypothesis) and hand over to Workstream 3's prototype-to-production gate.
+What is complete:
+
+- [x] Assessment matrix: 22 tools across four groups, all 15 criteria columns, named sources (Document 01)
+- [x] At-a-glance verdict table with conditional verdicts (Document 01)
+- [x] Sanctioned sandbox principles (Document 02)
+- [x] Detailed tool profiles for every assessed tool (Document 03)
+- [x] Key findings, 10 recommendations, decisions needed, open questions (Document 04)
+- [x] Categorised sources with access dates (Document 05)
+- [x] Glossary including cross-stream terms (Document 06)
+- [x] Dependencies and handoffs (Document 07)
+
+What is in progress:
+
+- [ ] Closing remaining "To be researched" items (vendor pricing re-checks, Windsurf ownership status, Devin security specifics, GitHub Education entitlement changes)
+- [ ] Confirming conditional verdicts with vendors through procurement (v0 by Vercel, Gemini Code Assist, Windsurf, JetBrains, Microsoft 365 Copilot)
+
+What is needed from others:
+
+- [ ] Arthur (WS2): final data classification, the per-tool data decision table, DPIA thresholds
+- [ ] Salah (WS3): production-readiness gate and ownership model
+- [ ] Legal and Procurement: DPA and indemnity review per Approved tool
+- [ ] Digital/IT: identity integration and sandbox infrastructure stand-up
