@@ -2,6 +2,8 @@
 
 > Workstream 1 | INSEAD AI-Assisted Application Development Framework | Version 0.1 (draft) | 3 September 2026
 >
+> Workstream 1 documents: [01 - Tool Assessment Matrix](01_Tool_Assessment_Matrix.md) | [02 - Sanctioned Sandbox Principles](02_Sanctioned_Sandbox_Principles.md) | [03 - Tool Profiles](03_Tool_Profiles.md) | [04 - Key Findings & Recommendations](04_Key_Findings_and_Recommendations.md) | [05 - Sources and References](05_Sources_and_References.md) | [06 - Glossary](06_Glossary.md)
+>
 > Companion documents: [01 - Tool Assessment Matrix](01_Tool_Assessment_Matrix.md), [03 - Tool Profiles](03_Tool_Profiles.md), [04 - Key Findings & Recommendations](04_Key_Findings_and_Recommendations.md). This document defines the "where and how" of safe experimentation. Workstream 2 defines the data rules; Workstream 3 defines the exit (prototype-to-production) gate.
 
 ---
@@ -134,7 +136,7 @@ Criteria: inputs used for model training with no meaningful opt-out, no audit tr
 
 Use: no institutional use; listed with reasons. Personal use outside INSEAD's systems remains the individual's responsibility under general IT policy.
 
-Examples: tools that train on free-tier data with no enterprise option; browser extensions with opaque data collection; any tool requiring a personal API key with institutional data.
+Examples (named in the register, with reasons): free consumer ChatGPT for institutional data (trains on data by default); the Amazon Q Developer free tier (AWS Service Terms section 50.13); Replit free/Core for staff work (machine-learning improvement rights); Devin outside an Enterprise contract; and any tool that requires pasting institutional credentials.
 
 Obligations: the register explains why, and the sandbox provides an approved alternative for the same job.
 

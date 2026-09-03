@@ -2,6 +2,8 @@
 
 > Workstream 1 | INSEAD AI-Assisted Application Development Framework | Version 0.1 (draft) | 3 September 2026
 >
+> Workstream 1 documents: [01 - Tool Assessment Matrix](01_Tool_Assessment_Matrix.md) | [02 - Sanctioned Sandbox Principles](02_Sanctioned_Sandbox_Principles.md) | [03 - Tool Profiles](03_Tool_Profiles.md) | [04 - Key Findings & Recommendations](04_Key_Findings_and_Recommendations.md) | [05 - Sources and References](05_Sources_and_References.md) | [06 - Glossary](06_Glossary.md)
+>
 > Definitions are adapted from the authoritative sources linked under each term. Terms marked "(INSEAD definition, proposed)" are working definitions created for this framework and should be validated by stakeholders. Companion documents: [01 - Tool Assessment Matrix](01_Tool_Assessment_Matrix.md), [02 - Sanctioned Sandbox Principles](02_Sanctioned_Sandbox_Principles.md).
 
 ## A
@@ -15,6 +17,11 @@ INSEAD relevance: agentic coding tools (GitHub Copilot coding agent, Claude Code
 The use of AI tools to help humans create software: code completion and generation, review, explanation, testing, debugging and documentation. AI-generated code carries the same security obligations as human-written code; it does not exempt a project from secure development practice. Sources: [What is GitHub Copilot?](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot); [NIST SP 800-218, Secure Software Development Framework (SSDF)](https://csrc.nist.gov/pubs/sp/800/218/final).
 
 INSEAD relevance: the framework governs how AI-assisted prototypes progress from experimentation to institutional products. It does not govern whether people may use AI to build (Intern Research Brief, working principle).
+
+### AI credits (usage-based billing)
+A metering unit used by GitHub Copilot's June 2026 billing model: the base subscription stays, and agentic or premium requests draw down credits beyond the included allowances. Source: [GitHub Blog: Copilot moves to usage-based billing](https://github.blog/news-insights/github-copilot-is-moving-to-usage-based-billing/).
+
+INSEAD relevance: budgeting for Copilot becomes monitoring plus forecast, which is why Document 04 recommends spend alerts alongside the subscription.
 
 ### Approved / Experimental / Restricted (INSEAD definition, proposed)
 The three outcome categories used to classify every AI development tool in this framework.
@@ -39,6 +46,9 @@ The automated pipeline that builds, tests and deploys code changes. OWASP's CI/C
 
 INSEAD relevance: a prototype does not need CI/CD; an institutional application (Tier 2+) does. The promotion gate defined by Workstream 3 requires CI/CD with secrets isolation.
 
+### Conditional approval (INSEAD definition, proposed)
+An Approved verdict that carries a named condition to close before procurement, written into the verdict itself, for example "Approved (conditional: confirm SSO and training opt-out tiers with Vercel)". Conditional verdicts stay in the register until the condition is closed. Full treatment: [01 - Tool Assessment Matrix](01_Tool_Assessment_Matrix.md) and [02 - Sanctioned Sandbox Principles](02_Sanctioned_Sandbox_Principles.md), Section 4.
+
 ### Containerization
 Packaging an application and its dependencies into an isolated, portable runtime unit (for example Docker/OCI containers) so it runs consistently across environments. Containers isolate applications from each other but are not a substitute for data governance or secure configuration. Sources: [Docker: What is a container?](https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/); [OWASP Docker Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html).
 
@@ -56,12 +66,27 @@ The geographical location or locations where data is stored and processed. Resid
 
 INSEAD relevance: where a vendor processes code and prompts is a matrix criterion. The preference is EU processing for Amber/Red data, since INSEAD's Fontainebleau campus is in the EU.
 
+### DPA (Data Processing Agreement)
+The contract that fixes a vendor's obligations when it processes personal data on INSEAD's behalf, as GDPR article 28 requires. Source: [Regulation (EU) 2016/679 (EUR-Lex)](https://eur-lex.europa.eu/eli/reg/2016/679/oj).
+
+INSEAD relevance: procurement should collect a signed DPA for every Approved tool before Amber data flows through it. Several vendors publish theirs (for example Cursor's DPA), which the matrix flags where available.
+
+### DPIA (Data Protection Impact Assessment)
+The GDPR article 35 assessment required before processing that is likely to result in high risk to people. Source: [Regulation (EU) 2016/679 (EUR-Lex)](https://eur-lex.europa.eu/eli/reg/2016/679/oj).
+
+INSEAD relevance: the natural gate for Red data and Tier 3 work, owned by Workstream 2 together with the DPO.
+
 ## E
 
 ### EU AI Act
 Regulation (EU) 2024/1689, the EU's risk-based regulation of AI systems, applicable to providers and deployers of AI systems in the EU market. Most internal INSEAD applications will likely fall into minimal or limited-risk categories, but high-risk or prohibited practices (for example certain biometric categorisation) must be avoided, and transparency obligations can apply. Source: [Regulation (EU) 2024/1689 (EUR-Lex)](https://eur-lex.europa.eu/eli/reg/2024/1689/oj).
 
 INSEAD relevance: framework guardrails should be compatible with EU AI Act deployer obligations for Tier 2/3 applications used at the France campus.
+
+### Enterprise Managed Users (EMU)
+GitHub's mode in which every account in an enterprise is created and controlled by the enterprise, with enforced SAML SSO and SCIM and no personal accounts. Source: [GitHub Docs: About Enterprise Managed Users](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/using-enterprise-managed-users-for-iam/about-enterprise-managed-users).
+
+INSEAD relevance: the strictest way to run Copilot Enterprise, and the reference configuration for principle P3 (identity-first access) in Document 02.
 
 ## F
 

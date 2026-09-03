@@ -2,17 +2,19 @@
 
 > Workstream 1 | INSEAD AI-Assisted Application Development Framework | Version 0.1 (draft) | 3 September 2026
 >
+> Workstream 1 documents: [01 - Tool Assessment Matrix](01_Tool_Assessment_Matrix.md) | [02 - Sanctioned Sandbox Principles](02_Sanctioned_Sandbox_Principles.md) | [03 - Tool Profiles](03_Tool_Profiles.md) | [04 - Key Findings & Recommendations](04_Key_Findings_and_Recommendations.md) | [05 - Sources and References](05_Sources_and_References.md) | [06 - Glossary](06_Glossary.md)
+>
 > Executive summary for the AI Development Tools & Safe Development Environments workstream. Evidence base: [01 - Tool Assessment Matrix](01_Tool_Assessment_Matrix.md), [02 - Sanctioned Sandbox Principles](02_Sanctioned_Sandbox_Principles.md), [03 - Tool Profiles](03_Tool_Profiles.md), [05 - Sources and References](05_Sources_and_References.md).
 
 ## 1. Key findings
 
 1. The market has split into three tool classes with different governance shapes. IDE assistants (Copilot, Cursor, Windsurf, JetBrains AI) live inside the developer's editor. Browser app builders (Replit, Lovable, Bolt.new, v0) turn prompts into deployed apps for non-developers. Agentic CLIs (Claude Code, Codex, Gemini CLI, Cline, Aider, OpenHands) run semi-autonomously in the terminal. Each class needs a different rule shape: assistants need tier controls, builders need data and hosting rules, CLIs need endpoint and secrets rules.
 2. Enterprise tiers have converged on the controls INSEAD actually needs. SAML SSO with SCIM provisioning, contractual no-training commitments, audit logs, content exclusion or privacy modes, data residency options and IP indemnity now exist on the enterprise tier of almost every major tool. The Approved versus Experimental difference is almost never the tool. It is the tier, and whether that tier is configured.
-3. The free and consumer tiers are where the risk lives, and that is where students sit by default. Training clauses appear there (Amazon Q Developer's free tier under AWS Service Terms section 50.13, Replit's machine-learning improvement rights, Lovable's free-tier default), with no SSO and no audit. The framework's main job is channelling hundreds of default-free-tier users into a governed space.
-4. GitHub and Microsoft form the deepest Approved stack. Copilot Business/Enterprise provides SSO, SCIM, content exclusions, audit events, a global model policy (GA August 2026), US and EU data residency (April 2026) and IP indemnity. Azure OpenAI adds no-training commitments, content filters, monitoring and the EU Data Boundary. Note the June 2026 shift of Copilot to usage-based billing: budgets now need monitoring, not just a per-seat forecast.
+3. The free and consumer tiers are where the risk lives, and that is where students sit by default. Training clauses appear there (Amazon Q Developer's free tier under [AWS Service Terms section 50.13](https://aws.amazon.com/service-terms/), Replit's machine-learning improvement rights, Lovable's free-tier default), with no SSO and no audit. The framework's main job is channelling hundreds of default-free-tier users into a governed space.
+4. GitHub and Microsoft form the deepest Approved stack. Copilot Business/Enterprise provides SSO, SCIM, content exclusions, audit events, a global model policy (GA August 2026), US and EU data residency (April 2026) and IP indemnity. Azure OpenAI adds [no-training commitments](https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/data-privacy), content filters, monitoring and the [EU Data Boundary](https://learn.microsoft.com/en-us/privacy/eudb/). Note the [June 2026 shift of Copilot to usage-based billing](https://github.blog/news-insights/github-copilot-is-moving-to-usage-based-billing/): budgets now need monitoring, not just a per-seat forecast.
 5. EU data residency is a solved category if INSEAD buys the right tier. Azure EU Data Boundary, Copilot Enterprise EU residency, Lovable's region selection and Cursor's residency program all exist today. The remaining residency questions are about specific tiers and about Microsoft's documented exceptions for optional capabilities.
-6. Agency is the new axis of risk. Copilot's coding agent, Claude Code, Replit Agent and Devin move from suggesting code to acting on repositories. OWASP LLM08 (Excessive Agency) applies to the development loop itself, not just to applications INSEAD builds. Review gates on agentic changes matter as much as data rules.
-7. The community is debating AI code quality right now. In the last 30 days (engine data, 2026-08-04 to 2026-09-03) the top threads were "New codebase + AI code smells" on r/ExperiencedDevs (156 points, 203 comments) and "AI coding has made me dramatically faster" on r/ChatGPTCoding, while Meta launched its Muse Code and Muse Spark coding agent. The tool market moves fast enough that the register needs a quarterly review cadence, and code review standards need to assume AI-generated code by default.
+6. Agency is the new axis of risk. Copilot's coding agent, Claude Code, Replit Agent and Devin move from suggesting code to acting on repositories. [OWASP LLM08 (Excessive Agency)](https://genai.owasp.org/llmrisk/llm08-excessive-agency/) applies to the development loop itself, not just to applications INSEAD builds. Review gates on agentic changes matter as much as data rules.
+7. The community is debating AI code quality right now. In the last 30 days (engine data, 2026-08-04 to 2026-09-03) the top threads were "New codebase + AI code smells" on r/ExperiencedDevs (156 points, 203 comments) and "AI coding has made me dramatically faster" on r/ChatGPTCoding, while Meta launched its [Muse Code and Muse Spark](https://venturebeat.com/orchestration/meta-enters-the-ai-coding-wars-with-muse-spark-1-2-and-muse-code-with-persistent-async-background-agents) coding agent. The tool market moves fast enough that the register needs a quarterly review cadence, and code review standards need to assume AI-generated code by default.
 8. Education entitlements are shifting. GitHub's free student Copilot is reportedly being reduced (flagged for re-verification each term), and vendor student discounts exist but with thin published terms. INSEAD cannot plan Amber-data work on free-tier assumptions.
 9. Open-source BYOK tools are a governance pattern, not a vendor risk. Cline, Aider, OpenHands and Continue.dev add no new data controller. Pointed at an institutional gateway (Azure OpenAI or an enterprise API), they inherit enterprise protections; pointed at personal keys, they create leak and spend risk with no audit.
 10. The sandbox is implementable now. Identity, a dedicated GitHub organisation, a tool register, data rules and named owners are configuration and policy, not a build project. The expensive part is the one thing INSEAD must do anyway: procuring at least one enterprise-grade stack.
@@ -83,6 +85,23 @@ From Workstream 3 (Prototype-to-Production, Ownership and Sustainability):
 - The definition of a "reviewed integration" for sandbox-to-system connections.
 
 From other INSEAD functions: Legal and Procurement (DPA and indemnity review per tool, vendor onboarding), Digital/IT (identity integration, effort estimates), Learning and Talent (onboarding module), and Communications (how the register and AUP are published to students and staff).
+
+---
+
+## Key sources for this summary
+
+- Tool matrix with per-fact citations: [01 - Tool Assessment Matrix](01_Tool_Assessment_Matrix.md)
+- GitHub Copilot usage-based billing: <https://github.blog/news-insights/github-copilot-is-moving-to-usage-based-billing/>
+- Copilot global model policy (GA Aug 2026): <https://github.blog/changelog/2026-08-26-global-model-policy-generally-available/>
+- Copilot data residency (US/EU/FedRAMP): <https://docs.github.com/en/enterprise-cloud@latest/admin/data-residency/github-copilot-with-data-residency>
+- Azure OpenAI data privacy: <https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/data-privacy>
+- Microsoft EU Data Boundary: <https://learn.microsoft.com/en-us/privacy/eudb/>
+- AWS Service Terms section 50.13: <https://aws.amazon.com/service-terms/>
+- OWASP LLM08 Excessive Agency: <https://genai.owasp.org/llmrisk/llm08-excessive-agency/>
+- Community evidence (AI code smells): <https://www.reddit.com/r/ExperiencedDevs/comments/1vvj60z/new_codebase_ai_code_smells/>
+- Muse Code launch coverage: <https://venturebeat.com/orchestration/meta-enters-the-ai-coding-wars-with-muse-spark-1-2-and-muse-code-with-persistent-async-background-agents>
+- Harvard HUIT AI Sandbox precedent: <https://harvard.service-now.com/ithelp?id=kb_article&sys_id=ca9dd14447f07950566cf147536d433b>
+- Full source list: [05 - Sources and References](05_Sources_and_References.md)
 
 ---
 

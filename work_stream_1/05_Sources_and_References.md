@@ -2,6 +2,8 @@
 
 > Workstream 1 | INSEAD AI-Assisted Application Development Framework | Version 0.1 (draft) | 3 September 2026
 >
+> Workstream 1 documents: [01 - Tool Assessment Matrix](01_Tool_Assessment_Matrix.md) | [02 - Sanctioned Sandbox Principles](02_Sanctioned_Sandbox_Principles.md) | [03 - Tool Profiles](03_Tool_Profiles.md) | [04 - Key Findings & Recommendations](04_Key_Findings_and_Recommendations.md) | [05 - Sources and References](05_Sources_and_References.md) | [06 - Glossary](06_Glossary.md)
+>
 > Every source cited across the workstream documents, grouped by category. Date accessed: 3 September 2026 unless noted. Items marked "bot-gated" returned HTTP 403 to automated checks but are live pages in a browser; items marked "JS-rendered" need a browser to read and were summarised from third-party pages where noted.
 
 ## Vendor official documentation

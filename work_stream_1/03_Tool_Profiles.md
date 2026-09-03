@@ -2,6 +2,8 @@
 
 > Workstream 1 | INSEAD AI-Assisted Application Development Framework | Version 0.1 (draft) | 3 September 2026
 >
+> Workstream 1 documents: [01 - Tool Assessment Matrix](01_Tool_Assessment_Matrix.md) | [02 - Sanctioned Sandbox Principles](02_Sanctioned_Sandbox_Principles.md) | [03 - Tool Profiles](03_Tool_Profiles.md) | [04 - Key Findings & Recommendations](04_Key_Findings_and_Recommendations.md) | [05 - Sources and References](05_Sources_and_References.md) | [06 - Glossary](06_Glossary.md)
+>
 > One profile per tool in [01 - Tool Assessment Matrix](01_Tool_Assessment_Matrix.md). Each profile covers what the tool does, how it fits an institution like INSEAD, what happens to data, and where it should sit (Approved / Experimental / Restricted). Sources are given inline and consolidated in [05 - Sources and References](05_Sources_and_References.md).
 
 ## GitHub Copilot (all tiers)
