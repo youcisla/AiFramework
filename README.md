@@ -30,7 +30,7 @@ Tool categories (this workstream): Approved | Experimental | Restricted/Prohibit
 
 Data classes (Workstream 2 hypothesis): Green (public/synthetic/non-sensitive) | Amber (internal) | Red (personal/confidential/student/credential/sensitive research).
 
-Source brief: [AI-Assisted Application Development Intern Brief (PDF)](docs/AI_Assisted_Application_Development_Intern_Brief.pdf) | [(DOCX)](docs/AI_Assisted_Application_Development_Intern_Brief.docx)
+Source brief: the AI-Assisted Application Development intern research brief (local working reference, not tracked in this repository).
 
 ## Documents
 
