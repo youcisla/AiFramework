@@ -36,7 +36,7 @@ The sandbox hosts Tier 0 work (personal experiment: public/synthetic data, no in
 ## 2. Core principles
 
 ### P1. Separation of experimentation from production
-Sandbox projects are isolated from production by default: separate GitHub organisation and repositories, separate hosting namespaces, no access to production credentials, systems or APIs. Anything that needs a production connection is automatically Tier 2 and leaves the sandbox. Basis: segmentation is a foundational secure-design control. See [NIST AI RMF](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) (GOVERN/MANAGE) and [OWASP Top 10 for LLM Applications](https://genai.owasp.org/).
+Sandbox projects are isolated from production by default: separate GitHub organisation and repositories, separate hosting namespaces, no access to production credentials, systems or APIs. Anything that needs a production connection is automatically Tier 2 and leaves the sandbox. Basis: segmentation is a basic secure-design control. See [NIST AI RMF](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) (GOVERN/MANAGE) and [OWASP Top 10 for LLM Applications](https://genai.owasp.org/).
 
 ### P2. Data restrictions by default
 The default data posture in the sandbox is Green only (public / synthetic / non-sensitive, Workstream 2 hypothesis). Amber (internal) data may be used only with case review and only in Approved tools. Red data (personal, confidential, student, credential, sensitive research) never enters the sandbox. The rule fits in one line: if you would not publish it on the INSEAD public website, it does not go into an Experimental tool, and Red data goes into no AI tool without an explicit, reviewed decision.
@@ -170,7 +170,7 @@ Obligations: the register explains why, and the sandbox provides an approved alt
 | Tier 0 (personal experiment) | Approved or Experimental | Green only | Sandbox |
 | Tier 1 (internal prototype) | Approved (Experimental with sponsor) | Green; Amber with review | Sandbox |
 | Tier 2 (institutional application) | Approved only | Per Workstream 2 classification | Production pathway (Workstream 3 gate) |
-| Tier 3 (high-impact/sensitive) | Approved only, plus additional controls | Red-capable with Workstream 2/Cybersecurity involvement | Production pathway with enhanced governance |
+| Tier 3 (high-impact/sensitive) | Approved only, plus additional controls | Red-capable with Workstream 2/Cybersecurity involvement | Production pathway with stronger governance |
 
 ---
 

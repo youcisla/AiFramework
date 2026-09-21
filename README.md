@@ -20,8 +20,8 @@ flowchart LR
 ## Start here
 
 1. [Consolidated framework](consolidated/00_Consolidated_Framework.md): the single testable model, terminology, tiers, controls, gate, ownership and outcomes.
-2. [Scenario walkthroughs](consolidated/02_Scenario_Walkthroughs.md): four INSEAD scenarios run end to end, with the friction they exposed.
-3. [Gaps, contradictions and dependencies](consolidated/01_Gaps_Contradictions_Dependencies.md): what must be decided and who owns it.
+2. [Gaps, contradictions and dependencies](consolidated/01_Gaps_Contradictions_Dependencies.md): what must be decided and who owns it.
+3. [Scenario walkthroughs](consolidated/02_Scenario_Walkthroughs.md): four INSEAD scenarios run end to end, with the friction they exposed.
 4. [Recommended changes](consolidated/03_Recommended_Changes.md): the changes the scenario testing produced, with ready-to-use wording for the clauses that matter.
 5. [Minimum operating model](consolidated/04_Minimum_Operating_Model.md): how a pilot would run.
 6. [White paper inputs](consolidated/05_White_Paper_Inputs.md): the material for the white paper and the decisions it must ask for.
@@ -65,6 +65,8 @@ An idea is classified by two independent scales, the data band (Red, Amber, Gree
 
 ## Status
 
+Reviewed 3 September 2026.
+
 What is complete:
 
 - [x] Workstream 1 documents, cited and reviewed (Documents 01 to 07)
@@ -72,6 +74,7 @@ What is complete:
 - [x] Consolidated framework, gaps register, scenario walkthroughs, recommended changes
 - [x] Minimum operating model and white paper inputs
 - [x] Cross-links across all documents and a green lint pipeline
+- [x] Full QA pass (3 September 2026): 16 files, 259 internal links verified with zero broken, markdownlint 0 issues, external links checked and two stale vendor URLs corrected
 
 What is in progress:
 

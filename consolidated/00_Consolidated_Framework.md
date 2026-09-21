@@ -92,7 +92,7 @@ Two additions to the register that come from WS2 rather than WS1:
 | New register criterion | Why | Status |
 |---|---|---|
 | Model provenance, licence and version pinning | WS2 identifies supply chain and model provenance as a risk requiring verified sources, licence checks and pinned versions. A tool row that does not state which models it may call cannot satisfy this | Implementation work |
-| Action capability and confirmation rules | WS2 requires that tools exposed to an agent are narrow, purpose-specific and that irreversible actions are human-validated. The register must record what each tool can do, not only where it runs | Implementation work |
+| Action capability and confirmation rules | WS2 requires that tools exposed to an agent are narrow, purpose-specific and that irreversible actions are human-validated. The register must record what each tool can do and where it runs | Implementation work |
 
 ### 3.3 Approval authority
 
@@ -119,7 +119,7 @@ These answers come from WS2 and are the operative rules. They are Existing requi
 | Risk | Key controls | Required from |
 |---|---|---|
 | Prompt injection | Normalise files to text before prompting, strip hidden-text characters, mark external content as data, human validation on external operations, gate the combination of untrusted input with sensitive data and a state change, pin tool and library versions | Any application accepting external content |
-| Sensitive information disclosure | Minimise what reaches the model, synthetic or anonymised data by default, no credentials in prompts, authenticate through tools, inspect tool-call arguments and traces and not only responses | All tiers, mandatory with Amber data |
+| Sensitive information disclosure | Minimise what reaches the model, synthetic or anonymised data by default, no credentials in prompts, authenticate through tools, inspect tool-call arguments and traces as well as the visible responses | All tiers, mandatory with Amber data |
 | Excessive agency | Least-privilege tool set, narrow capability, user confirmation before irreversible actions, comply with the target system's policy, log all tool use, rate limit and monitor | Any Amber or Red integration |
 | Supply chain and model provenance | Trusted sources only, verify provenance and licence, pin versions, behavioural testing because static analysis does not apply | All tiers, including prototyping |
 | Misinformation and unreliable output | Ground answers in supplied verified sources, verify output before acting, review agent actions and arguments, review generated code before it runs against anything that matters | All tiers |
