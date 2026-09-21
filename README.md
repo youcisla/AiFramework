@@ -25,6 +25,7 @@ flowchart LR
 4. [Recommended changes](consolidated/03_Recommended_Changes.md): the changes the scenario testing produced, with ready-to-use wording for the clauses that matter.
 5. [Minimum operating model](consolidated/04_Minimum_Operating_Model.md): how a pilot would run.
 6. [White paper inputs](consolidated/05_White_Paper_Inputs.md): the material for the white paper and the decisions it must ask for.
+7. [Research refresh](consolidated/06_Research_Refresh.md): what a fresh practitioner and tool sweep corroborated, and the new watchlist.
 
 ## Repository map
 
@@ -58,6 +59,7 @@ flowchart LR
 | 03 | [Recommended Changes](consolidated/03_Recommended_Changes.md) | Changes R1 to R28 traced to findings, with drafted clause wording |
 | 04 | [Minimum Operating Model](consolidated/04_Minimum_Operating_Model.md) | Pilot scope, roles, workflow, decision rights, cadence, measures, 90 day plan |
 | 05 | [White Paper Inputs](consolidated/05_White_Paper_Inputs.md) | Outline, key messages, evidence table, decisions to ask for, visuals, communication risks |
+| 06 | [Research Refresh](consolidated/06_Research_Refresh.md) | Targeted research sweep (agent-reach via GitHub search plus last30days), corroborating signals, new tool watchlist and sources |
 
 ## How the framework reads in one paragraph
 

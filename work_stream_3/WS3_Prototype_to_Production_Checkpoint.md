@@ -6,7 +6,7 @@
 >
 > Workstream 1 documents: [01 - Tool Assessment Matrix](../work_stream_1/01_Tool_Assessment_Matrix.md) | [02 - Sanctioned Sandbox Principles](../work_stream_1/02_Sanctioned_Sandbox_Principles.md) | [03 - Tool Profiles](../work_stream_1/03_Tool_Profiles.md) | [04 - Key Findings & Recommendations](../work_stream_1/04_Key_Findings_and_Recommendations.md) | [05 - Sources and References](../work_stream_1/05_Sources_and_References.md) | [06 - Glossary](../work_stream_1/06_Glossary.md) | [07 - Dependencies and Handoffs](../work_stream_1/07_Dependencies_and_Handoffs.md)
 >
-> Framework-wide: [Consolidated framework](../consolidated/00_Consolidated_Framework.md) | [Gaps and contradictions](../consolidated/01_Gaps_Contradictions_Dependencies.md) | [Scenario walkthroughs](../consolidated/02_Scenario_Walkthroughs.md) | [Recommended changes](../consolidated/03_Recommended_Changes.md) | [Minimum operating model](../consolidated/04_Minimum_Operating_Model.md) | [White paper inputs](../consolidated/05_White_Paper_Inputs.md)
+> Framework-wide: [Consolidated framework](../consolidated/00_Consolidated_Framework.md) | [Gaps and contradictions](../consolidated/01_Gaps_Contradictions_Dependencies.md) | [Scenario walkthroughs](../consolidated/02_Scenario_Walkthroughs.md) | [Recommended changes](../consolidated/03_Recommended_Changes.md) | [Minimum operating model](../consolidated/04_Minimum_Operating_Model.md) | [White paper inputs](../consolidated/05_White_Paper_Inputs.md) | [Research refresh](../consolidated/06_Research_Refresh.md)
 
 Initial research checkpoint: AI-Assisted Application Development Framework
 
