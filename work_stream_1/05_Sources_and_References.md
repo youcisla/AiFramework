@@ -30,7 +30,7 @@
 - Azure AI Foundry: data privacy for Azure OpenAI. <https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/data-privacy> - no-training and no-sharing commitments.
 - Azure AI Foundry: content filters. <https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/content-filter> - filter categories, severity thresholds and blocklists.
 - Microsoft EU Data Boundary. <https://learn.microsoft.com/en-us/privacy/eudb/> - EU residency commitment and its exceptions for optional capabilities.
-- Azure for Education offers. <https://azure.microsoft.com/en-us/pricing/offers/education> - student and academic credits.
+- Azure for Education offers. <https://azure.microsoft.com/en-us/free/students/> - student and academic credits.
 
 ### OpenAI, Anthropic and Google
 
@@ -87,7 +87,7 @@
 - JetBrains AI. <https://www.jetbrains.com/ai/> - licensing overview.
 - Amazon Q Developer pricing. <https://aws.amazon.com/q/developer/pricing/> - tiers, Identity Center, indemnity.
 - AWS Service Terms. <https://aws.amazon.com/service-terms/> - section 50.13: free tier content may be used for service improvement.
-- Amazon Q Developer security. <https://aws.amazon.com/q/developer/security/> - security program.
+- Amazon Q Developer security. <https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/security.html> - security program.
 - v0 by Vercel. <https://v0.app> - product page.
 - Vercel privacy policy. <https://vercel.com/legal/privacy-policy> - processor role and training opt-outs.
 - Cognition: new self-serve plans for Devin. <https://cognition.com/blog/new-self-serve-plans-for-devin> - plan structure.

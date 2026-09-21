@@ -84,7 +84,7 @@ Sources for Group A:
 - S15: GitHub Next, Copilot Workspace, <https://githubnext.com/projects/copilot-workspace>
 - S16: GitHub changelog, Copilot CLI GA, <https://github.blog/changelog/2026-02-25-github-copilot-cli-is-now-generally-available/>
 - S17: Microsoft Learn, Copilot contractual protections, <https://learn.microsoft.com/en-us/training/modules/github-copilot-management-and-customizations/3-github-copilot-contractual-protections-disabling-matching-public-code>
-- S18: Azure for Education offers, <https://azure.microsoft.com/en-us/pricing/offers/education>
+- S18: Azure for Education offers, <https://azure.microsoft.com/en-us/free/students/>
 
 ## Group B: OpenAI, Anthropic and Google coding assistants
 
@@ -170,7 +170,7 @@ Sources for Group C:
 - C20: JetBrains AI, <https://www.jetbrains.com/ai/>
 - C21: Amazon Q Developer pricing, <https://aws.amazon.com/q/developer/pricing/>
 - C22: AWS Service Terms, <https://aws.amazon.com/service-terms/>
-- C23: Amazon Q Developer security, <https://aws.amazon.com/q/developer/security/>
+- C23: Amazon Q Developer security, <https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/security.html>
 - C24: v0 by Vercel, <https://v0.app>
 - C25: Vercel privacy policy, <https://vercel.com/legal/privacy-policy>
 - C26: Cognition, new self-serve plans for Devin, <https://cognition.com/blog/new-self-serve-plans-for-devin>
