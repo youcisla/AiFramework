@@ -232,7 +232,7 @@ flowchart TD
 
 | Category | Items |
 |---|---|
-| Existing requirements the framework must respect | GDPR; INSEAD Data Security Policy (KB0010486); INSEAD Application Security Policy (KB0010484); INSEAD IT security policies; no institutional data outside INSEAD-provided or Security-approved tools |
+| Existing requirements the framework must respect | GDPR; INSEAD Data Security Policy (KB0010486); INSEAD Application Security Policy (KB0010484); INSEAD IT security policies; the public INSEAD policies (Code of Conduct and Ethics, Copyright Policy, Data Protection Notice, Whistleblowing via Open Talk) at insead.edu/about-insead/policies-and-legislations; no institutional data outside INSEAD-provided or Security-approved tools |
 | Proposed, awaiting joint approval | The sandbox model and tool register (WS1); the two-scale classification and control set (WS2); the gate, ownership model and outcome routes (WS3); promotion as a gate plus review point |
 | Decisions required | See section 5 of [01 - Gaps, Contradictions and Dependencies](01_Gaps_Contradictions_Dependencies.md) |
 | Implementation work | Register build and quarterly review; Security approval workflow; registry and data-use note forms; onboarding module; identity and hosting stand-up; evidence checking; abandoned-project process; retention execution for sandbox projects |
