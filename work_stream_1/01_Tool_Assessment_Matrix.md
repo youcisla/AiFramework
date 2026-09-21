@@ -4,6 +4,8 @@
 >
 > Workstream 1 documents: [01 - Tool Assessment Matrix](01_Tool_Assessment_Matrix.md) | [02 - Sanctioned Sandbox Principles](02_Sanctioned_Sandbox_Principles.md) | [03 - Tool Profiles](03_Tool_Profiles.md) | [04 - Key Findings & Recommendations](04_Key_Findings_and_Recommendations.md) | [05 - Sources and References](05_Sources_and_References.md) | [06 - Glossary](06_Glossary.md) | [07 - Dependencies and Handoffs](07_Dependencies_and_Handoffs.md)
 >
+> Framework-wide: [Consolidated framework](../consolidated/00_Consolidated_Framework.md) | [Gaps and contradictions](../consolidated/01_Gaps_Contradictions_Dependencies.md) | [Scenario walkthroughs](../consolidated/02_Scenario_Walkthroughs.md) | [Recommended changes](../consolidated/03_Recommended_Changes.md) | [Minimum operating model](../consolidated/04_Minimum_Operating_Model.md) | [White paper inputs](../consolidated/05_White_Paper_Inputs.md)
+>
 > Companion documents: [02 - Sanctioned Sandbox Principles](02_Sanctioned_Sandbox_Principles.md), [03 - Tool Profiles](03_Tool_Profiles.md). The matrix is the evidence base for the Approved / Experimental / Restricted categories defined in Document 02, Section 4.
 
 ## At a glance: verdicts for all assessed tools
